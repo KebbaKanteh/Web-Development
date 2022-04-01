@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.navigator{
+    background-color: blue;
+    height: 100px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+nav ul li a {
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+body{
+    background-color: black;
+    color:blanchedalmond
+}
+#year{
+    position: relative;
+}
+
+.note{
+    text-align: center;
+    padding-top: 15%;
+}
