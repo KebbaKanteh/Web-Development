@@ -8,6 +8,8 @@
     background-color: blue;
     height: 100px;
     width: 100%;
+    position: sticky;
+    top: 0px;
 }
 nav ul{
     float: right;
@@ -36,3 +38,19 @@ body{
     text-align: center;
     padding-top: 15%;
 }
+
+@media only screen and (max-width: 250px) {
+    body {
+      background-color: rgb(72, 3, 82);
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    body {
+      background-color: rgb(230, 58, 15);
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    body {
+      background-color: rgb(110, 230, 13);
+    }
+  }
