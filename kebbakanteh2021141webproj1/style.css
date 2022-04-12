@@ -1,0 +1,128 @@
+$desktop:1200px;
+$laptop:1024px;
+$tablet:768px;
+$phone:480px;
+
+*{ 
+
+    margin: 0;
+    padding: 0;
+}
+body{
+    @media screen  and (max-width:1200px) and (min-width:768px){
+        background:white;
+      
+    }
+}
+ 
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+ 
+}
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.logo{
+    width: 100px;
+
+    cursor: pointer;
+
+}
+.navbar{
+    text-align: center;
+    flex: 1;
+    @media (max-width:1024px) {
+            display:block;
+            font: size 25px;
+    }
+    @media  {max-width: 768px;
+        font: size 20px;
+        
+    }
+}
+.navbar a{
+    padding: 6px 20px;
+    text-decoration: none;
+    color: rgb(87, 211, 5);
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn{
+    cursor: pointer;
+    color: blue;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+
+}
+.content{
+    text-align: center;
+    margin-top: 10%;
+
+}
+.btn:hover{
+    color: red;
+    background-color: yellow;
+}
+.btn a:visited{
+    background-color: #fff;
+    color: #cc0052;
+
+}
+.btn a:hover{
+    color: #000;
+}
+.btn a:link{
+    text-decoration: none;
+}
+.content h1{
+    font-size: 80px;
+    color: white;
+}
+.sback{
+    background-color: rgb(194, 185, 185);
+}
+.pics1{
+    width: 50px;
+}
+.pics2{
+    width: 50px;
+}
+@media screen and (max-width: 800px) {
+    .navbar, .header{
+      width: 100%;
+    }
+    @media screen and (max-width: 480px) {
+        .navbar, .header{
+          width: 70%;
+        }
+        @media screen and (max-width: 180px) {
+            .navbar, .header {
+              width: 50%;
+            }
+            .tablecolor{
+                background-color: rgb(238, 108, 108)
+            }
+            .subj{
+                text-align: center;
+                background-color: aqua;
+            }
