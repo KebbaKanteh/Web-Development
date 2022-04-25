@@ -11,7 +11,7 @@ body{
 
 } 
 .fbackground{
-    background-image: url(/Assect/imgs/001.jpg);
+    background-image: url(/imgs/001.jpg);
     background-position: center;
     background-size: cover;
     height:400px;
@@ -171,7 +171,7 @@ nav a:hover{
     text-align: center;
 }
 .final-stage{
-    background-image: url(/Assect/imgs/003.jpg);
+    background-image: url(/imgs/003.jpg);
     background-position: center;
     background-size: cover;
     height:400px;
@@ -197,7 +197,7 @@ nav a:hover{
 .welcome-message{
     margin: 0;
     padding: 0;
-    background-image: url(/Assect/imgs/002.jpg);
+    background-image: url(/imgs/002.jpg);
     background-position: center;
     background-size: cover;
     height:400px;
@@ -227,7 +227,7 @@ nav a:hover{
     
 }
 .science{
-    background-image: url(/Assect/imgs/003.jpg);
+    background-image: url(/imgs/003.jpg);
     height: 180px;
     width: 280px;
     border-radius: 15px;
@@ -241,7 +241,7 @@ nav a:hover{
 
 }
 .art{
-   background-image: url(/Assect/imgs/002.jpg);
+   background-image: url(/imgs/002.jpg);
     height: 180px;
     width: 280px;
     border-radius: 15px;
@@ -253,7 +253,7 @@ nav a:hover{
     font-weight: bold;
 }
 .commerce{
-    background-image: url(/Assect/imgs/001.jpg);
+    background-image: url(/imgs/001.jpg);
     height: 180px;
     width: 280px;
     border-radius: 15px;
