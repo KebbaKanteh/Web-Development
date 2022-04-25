@@ -1,0 +1,381 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(/Assect/imgs/003.jpg);
+    background-position: center;
+    background-size: cover */
+    background-color: rgb(163, 196, 196);
+    height: fit-content;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
+}
+.fbackground{
+    background-image: url(/Assect/imgs/001.jpg);
+    background-position: center;
+    background-size: cover;
+    height:400px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: aqua;
+    z-index: 1;
+
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav{
+    float: right;
+}
+nav ul{
+     margin: 0;
+     position: 0;
+     list-style: none; 
+}
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 15px;
+    position: relative;
+}
+nav a{
+    color: blue;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: justify;
+    padding: 9px;
+}
+
+nav a:hover{
+    color: brown;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between  ;
+    align-items: start;
+    
+    
+}
+.flex-container::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.item-1{
+    width: 190px;
+    height: 60px;
+    padding: 3px 2px;
+    /* width: fit-content;
+    height: fit-content; */
+    font-weight: bold;
+
+    background-color: rgb(30, 255, 0);
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+}
+.item-2{
+    width: 450px;
+    height: 50px;
+    padding: 3px 2px;
+    /* width: fit-content;
+    height: fit-content; */
+    background-color: rgb(255, 115, 0);
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+}
+.i2{
+    text-align: center;
+    color: aqua;
+}
+.item-3{
+    /* width: 450px;
+    height: 50px;
+    padding: 3px 2px; */
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(133, 0, 44);
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 15px;
+}
+.aitems{
+   padding: 150px 200px;
+}
+.note1{
+    font-weight: bold;
+}
+.snote{
+    color: aliceblue;
+}
+.second-item{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(141, 136, 204);
+    height: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.third-items{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+   
+}
+.one{
+    width: 100vw;
+    height: 150px;
+    /* width: fit-content;
+    height: fit-content; */
+    background-color: rgb(25, 22, 216);
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+}
+.two{
+    width: 100vw;
+    height: 150px;
+    /* width: fit-content;
+    height: fit-content; */
+    background-color: rgb(245, 110, 0);
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+}
+.three{
+    width: 100vw;
+    height: 150px;
+    /* width: fit-content;
+    height: fit-content; */
+    background-color: rgb(77, 21, 21);
+    margin: 10px;
+    color: aliceblue;
+    border-radius: 15px;
+    text-align: center;
+}
+.final-stage{
+    background-image: url(/Assect/imgs/003.jpg);
+    background-position: center;
+    background-size: cover;
+    height:400px;
+}
+.button-word{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 200px;
+    text-align: center;
+    font-size: 20px;
+    color: darkkhaki;
+}
+.allinone{
+  
+}
+.footer{
+    min-height: 200px;
+    background-color: black;
+    margin: 0;
+}
+.footer-contact{
+    color: aliceblue;
+}
+.welcome-message{
+    margin: 0;
+    padding: 0;
+    background-image: url(/Assect/imgs/002.jpg);
+    background-position: center;
+    background-size: cover;
+    height:400px;
+    
+}
+.message1{
+    text-align: center;
+    font-family: sans-serif;
+    color: purple;
+}
+.message2{
+    text-align: center;
+    color: aliceblue;
+}
+.message3{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(17, 17, 17);
+    font-weight: 100px;
+}
+.facultry{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  
+    
+}
+.science{
+    background-image: url(/Assect/imgs/003.jpg);
+    height: 180px;
+    width: 280px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: green;
+    font-family: serif;
+    font-weight: bold;
+    
+
+}
+.art{
+   background-image: url(/Assect/imgs/002.jpg);
+    height: 180px;
+    width: 280px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-weight: bold;
+}
+.commerce{
+    background-image: url(/Assect/imgs/001.jpg);
+    height: 180px;
+    width: 280px;
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: blue;
+    font-family: serif;
+    font-weight: bold;
+
+}
+.fos{
+    padding: 50px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foa{
+    padding: 50px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.foc{
+    padding: 50px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Small devices (phones, 640px and down) */
+ @media only screen and (max-width: 640px){
+    nav{
+        float: inline-end;
+    }
+    .one{
+        width: 50vw;
+        height: 315px;
+        /* width: fit-content;
+        height: fit-content; */
+        background-color: rgb(25, 22, 216);
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .two{
+        width: 100vw;
+        height: 315px;
+        /* width: fit-content;
+        height: fit-content; */
+        background-color: rgb(160, 81, 17);
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .three{
+        width: 100vw;
+        height: 315px;
+        /* width: fit-content;
+        height: fit-content; */
+        background-color: rgb(77, 21, 21);
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .aitems{
+        padding: 150px 20px;
+    }
+    .snote{
+        color: rgb(134, 18, 3);
+        font-size: small;
+    }
+    .item-1{
+        width: 190px;
+        height: 60px;
+        padding: 3px 0px;
+        /* width: fit-content;
+        height: fit-content; */
+        font-weight: bold;
+    
+        background-color: rgb(30, 255, 0);
+        margin: 10px;
+        color: aliceblue;
+        text-align: left;
+        border-radius: 15px;
+    }
+    .item-2{
+        width: 450px;
+        height: 50px;
+        padding: 3px 2px;
+        /* width: fit-content;
+        height: fit-content; */
+        background-color: rgb(255, 115, 0);
+        margin: 10px;
+        color: aliceblue;
+        text-align: center;
+        border-radius: 15px;
+    }
+    .item-3{
+        /* width: 450px;
+        height: 50px;
+        padding: 3px 2px; */
+        width: fit-content;
+        height: fit-content;
+        background-color: rgb(133, 0, 44);
+        margin: 10px;
+        color: aliceblue;
+        border-radius: 15px;
+    }
+    .facultry{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    .message3{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: rgb(17, 17, 17);
+        font-weight: 1px;
+        font-size: 10px;
+    }
+} 
